@@ -41,3 +41,29 @@ This project demonstrates a MERN stack application with a React frontend styled 
    ```bash
    git clone https://github.com/Aaditya074/Roxiler-Challenge.git
    cd mern-coding-challenge
+2. **Install dependencies:**
+    npm install
+3. **Configure environment variables:**
+    MONGO_URI=mongodb://localhost:27017/transactions
+    PORT=5000
+4. **Run the backend server:**
+    npm run dev
+
+### Frontend Setup
+
+1. **Navigate to the frontend directory:**
+  cd ../frontend
+2. **Install dependencies:**
+  npm install
+3. **Run the frontend development server:**
+  npm start
+### Usage
+  **Initialize Database**
+To seed the database with data, make a GET request to:
+  http://localhost:5000/initialize
+**Access the Frontend**
+Navigate to http://localhost:3000/transactions to view the transactions table, statistics, and charts.
+
+### Summary
+
+This `README.md` provides a complete guide for setting up and running your MERN stack project with Tailwind CSS. It covers installation, configuration, usage, API endpoints, project structure, and licensing information, ensuring that anyone who visits your GitHub repository can understand and use your project effectively. Replace `https://github.com/Aaditya074/Roxiler-Challenge` with the actual URL of your GitHub repository before posting it on your repository's README.
