@@ -39,5 +39,5 @@ This project demonstrates a MERN stack application with a React frontend styled 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Aaditya074/Roxiler-Challenge.git
    cd mern-coding-challenge
